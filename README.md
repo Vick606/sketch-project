@@ -49,3 +49,4 @@ This project is inspired by The Odin Project and built using the skills and know
 License
 
 This project is licensed under the MIT License.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
