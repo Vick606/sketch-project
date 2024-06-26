@@ -1,13 +1,22 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
+    padding-top: 80px;
+}
+header {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    background-color: #ddd; 
+    position: fixed; 
+    top: 0;
 }
 #reset-button {
-    margin-bottom: 20px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -18,10 +27,20 @@ body {
     flex-wrap: wrap;
     width: 960px; 
     height: 960px; 
+    margin-top: 50px;
     border: 2px solid #333;
+    padding-top: 20px;
 }
 
 .square {
     box-sizing: border-box;
     border: 1px solid #ddd;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #ddd; 
+    position: fixed; 
+    bottom: 0; 
 }
