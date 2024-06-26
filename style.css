@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px; /* 16 squares * 40px each */
+    height: 640px; /* 16 squares * 40px each */
+    border: 2px solid #333;
+}
+
+.square {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+}
